@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy.stats as stats
+import logging
 
 class EDA:
     
@@ -92,3 +93,33 @@ class EDA:
                         ha='left', va='center',
                         bbox={'boxstyle': 'round', 'fc': 'powderblue', 'ec': 'navy'})
         logging.info("successfully plotted joint plot")
+        
+
+    def corr(x, y, **kwargs):
+        """
+        Function to calculate correlation coefficient between two arrays
+        """
+        # Calculate the value
+        coef = np.corrcoef(x, y)[0][1]
+        # Make the label
+        label = r'$\rho$ = ' + str(round(coef, 2))
+
+        # Add the label to the plot
+        ax = plt.gca()
+        ax.annotate(label, xy = (0.2, 0.95), size = 11, xycoords = ax.transAxes)
+        logging.info("successfully created correlation function")
+        
+    
+    def plot_heatmap(df):
+        """
+        Function to plot heatmap
+        """
+        f, ax = plt.subplots(figsize = ( 12, 10))
+        sns.heatmap( df.corr(), annot = True, linewidth = 0.5, fmt = '.1f', ax = ax )
+        logging.info("successfully plotted heatmap")
+        
+        
+if __name__=="__main__":
+    eda = Eda()
+
+    
