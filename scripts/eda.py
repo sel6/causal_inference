@@ -10,14 +10,14 @@ class EDA:
     def __init__(self):
          logging.basicConfig(filename="../logs/keep_track.log", level=logging.INFO, format="time: %(asctime)s, function: %(funcName)s, module: %(name)s, message: %(message)s \n")
     
-    def unique_col(df):
+    def unique_col(self, df):
         """
         A function to return unique columns
         """
         logging.info("successfully returned unique cols")
         return(df.apply(lambda x: len(x.unique())).sort_values(ascending=False).head(10))
     
-    def duplicate(df):
+    def duplicate(self, df):
         """
         A function to return duplicates
         """
@@ -26,14 +26,14 @@ class EDA:
         logging.info("successfully returned duplicates")
         return(df[dups])
     
-    def df_info(df):
+    def df_info(self, df):
         """
         A function to return dataset info
         """
         logging.info("successfully displayed info")
         return (df.describe().T.style.bar(subset=['mean'], color='#205ff2').background_gradient(subset=['std'], cmap='Reds').background_gradient(subset=['50%'], cmap='coolwarm'))
     
-    def plot_graph(x, data):
+    def plot_graph(self, x, data):
         """
         A function to plot bargraph
         """
@@ -41,7 +41,7 @@ class EDA:
         plt.figure(figsize=(12, 6))
         sns.countplot(x=x, data=data, palette='rocket')
         
-    def plot_violin(df, y):
+    def plot_violin(self, df, y):
         """
         A function to plot violin plot
         """
@@ -60,7 +60,7 @@ class EDA:
         plt.xticks(rotation=90)
         logging.info("succesfully ploted violin plot")
         
-    def check_outliers(df, y):
+    def check_outliers(self, df, y):
         """
         A function to check outliers
         """
@@ -81,7 +81,7 @@ class EDA:
         sns.boxplot(x="features", y="value", hue="diagnosis", data=df)
         logging.info("plot outliers")
         
-    def joint_plot(df, col1, col2):
+    def joint_plot(self, df, col1, col2):
         """
         A function to plot joint plot
         """
@@ -95,7 +95,7 @@ class EDA:
         logging.info("successfully plotted joint plot")
         
 
-    def corr(x, y, **kwargs):
+    def corr(self, x, y, **kwargs):
         """
         Function to calculate correlation coefficient between two arrays
         """
@@ -110,7 +110,7 @@ class EDA:
         logging.info("successfully created correlation function")
         
     
-    def plot_heatmap(df):
+    def plot_heatmap(self, df):
         """
         Function to plot heatmap
         """
@@ -120,6 +120,6 @@ class EDA:
         
         
 if __name__=="__main__":
-    eda = Eda()
+    eda = EDA()
 
     
