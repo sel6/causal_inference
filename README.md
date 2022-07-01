@@ -6,13 +6,13 @@ Causal inference is a statistical tool that enables our AI and machine learning 
 
 The data used for this project can be found in kaggle or in UCI Machine Learning Repository.
 
-# Notebooks
-
-It contains notebooks.
-
 # Screenshots
 
 Screenshots for MLflow and DVC
+
+# Notebooks
+
+It contains notebooks.
 
 # Data
 
