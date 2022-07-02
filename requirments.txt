@@ -1,4 +1,3 @@
-causalnex
 setuptools
 sklearn
 matplotlib
