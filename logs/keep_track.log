@@ -2824,3 +2824,569 @@ time: 2022-06-29 12:10:11,719, function: handle_outlier, module: root, message: 
 
 time: 2022-06-29 12:10:12,333, function: plot_heatmap, module: root, message: successfully plotted heatmap 
 
+time: 2022-06-30 13:54:36,547, function: unique_col, module: root, message: successfully returned unique cols 
+
+time: 2022-06-30 13:54:36,722, function: duplicate, module: root, message: successfully returned duplicates 
+
+time: 2022-06-30 13:54:36,778, function: df_info, module: root, message: successfully displayed info 
+
+time: 2022-06-30 13:54:37,421, function: plot_graph, module: root, message: successfully plotted 
+
+time: 2022-06-30 13:54:38,911, function: plot_violin, module: root, message: succesfully ploted violin plot 
+
+time: 2022-06-30 13:54:40,401, function: check_outliers, module: root, message: plot outliers 
+
+time: 2022-06-30 13:54:42,727, function: joint_plot, module: root, message: successfully plotted joint plot 
+
+time: 2022-06-30 13:54:44,001, function: joint_plot, module: root, message: successfully plotted joint plot 
+
+time: 2022-06-30 13:54:44,897, function: joint_plot, module: root, message: successfully plotted joint plot 
+
+time: 2022-06-30 13:54:45,755, function: joint_plot, module: root, message: successfully plotted joint plot 
+
+time: 2022-06-30 13:55:07,541, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,545, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,547, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,548, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,550, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,550, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,553, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,554, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,559, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,560, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,563, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,564, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,566, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,567, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,569, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,569, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,574, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,576, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,578, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,580, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,583, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,585, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,588, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,591, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,594, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,595, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,597, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,598, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,600, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,601, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,603, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,604, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,609, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,610, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,613, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,614, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,616, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,617, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,619, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,621, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,626, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,628, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,630, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,631, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,633, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,634, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,635, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,636, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,639, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,642, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,645, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,646, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,648, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,649, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,651, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,651, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,653, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,656, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,661, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,662, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,665, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,667, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,669, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,670, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,674, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,676, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,678, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,679, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,681, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,682, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,684, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,685, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,687, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,690, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,694, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,694, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,696, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,697, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,700, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,700, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,702, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,703, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,707, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,709, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,712, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,713, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,716, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,717, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,719, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:07,720, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,305, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,306, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,307, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,308, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,310, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,311, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,312, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,313, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,315, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,315, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,317, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,318, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,319, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,320, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,322, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,322, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,324, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,325, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,328, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,329, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,332, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,333, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,335, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,336, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,339, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,341, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,342, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,343, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,345, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,346, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,347, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,348, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,350, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,350, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,352, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,353, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,355, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,357, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,360, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,361, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,364, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,365, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,367, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,368, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,371, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,372, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,376, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,377, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,380, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,380, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,382, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,383, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,385, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,386, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,387, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,388, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,390, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,390, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,392, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,393, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,394, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,395, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,397, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,398, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,399, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,400, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,402, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,402, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,404, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,405, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,406, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,407, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,409, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,409, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,411, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,412, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,413, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,414, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,416, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,416, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,418, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,419, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,421, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,422, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,424, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,425, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,427, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,428, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,430, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:55:42,430, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,650, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,650, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,652, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,653, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,655, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,655, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,657, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,658, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,659, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,660, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,661, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,662, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,664, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,664, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,666, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,667, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,668, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,669, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,670, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,671, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,673, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,673, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,675, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,675, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,677, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,678, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,679, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,680, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,681, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,682, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,684, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,684, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,686, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,686, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,688, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,689, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,690, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,691, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,692, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,693, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,695, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,696, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,698, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,698, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,700, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,701, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,702, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,703, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,704, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,705, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,707, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,707, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,709, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,710, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,711, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,712, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,713, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,714, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,716, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,716, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,718, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,719, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,720, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,721, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,722, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,723, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,724, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,725, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,727, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,728, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,730, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,731, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,733, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,733, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,735, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,736, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,737, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,738, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,740, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,740, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,742, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,743, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,744, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,745, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,746, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,747, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,749, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,749, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,751, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:15,752, function: corr, module: root, message: successfully created correlation function 
+
+time: 2022-06-30 13:56:28,841, function: plot_heatmap, module: root, message: successfully plotted heatmap 
+
+time: 2022-06-30 13:56:32,453, function: handle_outlier, module: root, message: handle outliers 
+
+time: 2022-06-30 13:56:33,127, function: plot_heatmap, module: root, message: successfully plotted heatmap 
+
