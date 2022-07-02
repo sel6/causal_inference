@@ -27,15 +27,14 @@ A common frustration in the industry, especially when it comes to getting busine
 
 ## Source
 
-The data used for this project can be found in kaggle or in UCI Machine Learning Repository.
-https://github.com/sel6/causal_inference/blob/main/images/causal_inference.png
+> The data used for this project can be found in kaggle or in UCI Machine Learning Repository.
 
 ## Screenshots
 
-screenshots directory has the image files for:
-* MLflow setup
-* DVC setup
-* CML Report
+> screenshots directory has the image files for:
+> * MLflow setup
+> * DVC setup
+> * CML Report
 
 ## Notebooks
 
