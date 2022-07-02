@@ -1,5 +1,5 @@
 
-name: model-train
+name: model-trai
 on: [push]
 jobs:
   run:
