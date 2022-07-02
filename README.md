@@ -1,6 +1,5 @@
 <p align="center">
-    
-    <img src="https://github.com/sel6/causal_inference/blob/main/images/causal_inference.png">
+     <img src="https://github.com/sel6/causal_inference/blob/main/images/causal_inference.png">
 </p>
 
 Causal inference is a statistical tool that enables our AI and machine learning algorithms to reason in similar ways.
