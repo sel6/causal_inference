@@ -101,21 +101,20 @@ class CausalLearning():
         """
         A function that return edges, to know the consistent edges
         """
-        i = 1
-
         for s in sm_lis:
             blanket = s.get_markov_blanket('diagnosis')
-            print(i)
             print(blanket.edges)
-            i = i+1
+            
+        return(blanket.edges)
         logging.info("successfully returned number of edges for sm!")
 
-    def var_parents(self):
+    def var_parents(self, edges):
         """
         A function to return the lists directly pointing at the target
         """
+        
         selected = set()
-        for item in blanket.edges:
+        for item in edges:
             for val in item:
                 if(val != "diagnosis"):
                     selected.add(val)
@@ -143,7 +142,7 @@ class CausalLearning():
             target="diagnosis",
         )
         desc_df = df.copy()
-        for col in df.columns.to_list():
+        for col in feat:
             desc_df[col] = tree_discretiser.transform(desc_df[[col]])
         
         logging.info("successfully returned discrete dataset!")
