@@ -29,17 +29,29 @@ screenshots directory has the image files for:
 
 # Notebooks
 
-Contains notebooks for Exploratory Data Analysis and Causal Learning.
+> Contains notebooks for Exploratory Data Analysis and Causal Learning.
 
 # Data
 
-It contains the csv and dvc datas.
+> It contains the csv and dvc datas.
 
 # Scripts
 
-It contains python scripts for EDA and causal learning.
+> It contains python scripts for EDA and causal learning.
 
 # Tests
 
-It contains test python scripts
+> It contains test python scripts
 
+# Install
+
+```
+git clone https://github.com/sel6/.git
+cd causal_inference
+pip install -r requirements.txt
+```
+
+
+## Author
+
+👤 **Selam Ayehubirhan**
