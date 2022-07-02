@@ -1,7 +1,7 @@
 # Causal Inference
 
 <p align="center">
-    <img src="https://www.sciencedirect.com/science/article/pii/S2095809919305235">
+    <img src="https://www.sciencedirect.com/science/article/pii/S2095809919305235.png">
 </p>
 
 Causal inference is a statistical tool that enables our AI and machine learning algorithms to reason in similar ways.
