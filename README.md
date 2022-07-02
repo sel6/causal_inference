@@ -8,16 +8,14 @@ Causal inference is a statistical tool that enables our AI and machine learning 
 It is an intellectual discipline that considers the assumptions, study designs, and estimation strategies that allow researchers to draw conclusions based on data.
 Causal inference analyzes the response of an effect variable when a cause of the effect variable is changed.
 
-## Business Need
-
 A common frustration in the industry, especially when it comes to getting business insights from tabular data, is that the most interesting questions (from their perspective) are often not answerable with observational data alone. These questions can be similar to:
 
 **What will happen if I halve the price of my product?**
 **Which clients will pay their debts only if I call them?**
 
-**Table of content**
+## Table of content
 
-- [Data Source](#datasource)
+- [Source](#source)
 - [Screenshots](#screenshots)
 - [Notebooks](#notebooks)
 - [Data](#data)
@@ -27,7 +25,7 @@ A common frustration in the industry, especially when it comes to getting busine
 - [Install](#install)
 
 
-## Data Source
+## Source
 
 The data used for this project can be found in kaggle or in UCI Machine Learning Repository.
 https://github.com/sel6/causal_inference/blob/main/images/causal_inference.png
