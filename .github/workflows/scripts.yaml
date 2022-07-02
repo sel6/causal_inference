@@ -17,4 +17,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Python Scripts
-        run: python scripts/*.py
+        run: |
+          pip install -r requirements.txt
+          python scripts/*.py
