@@ -1,16 +1,3 @@
-**Table of content**
-
-- [Causal Inference](#causalinference)
-- [Buisness Need](#buisnessneed)
-- [Data Source](#datasource)
-- [Screenshots](#screenshots)
-- [Notebooks](#notebooks)
-- [Data](#data)
-- [Scripts](#scripts)
-- [Integration](#integration)
-- [Tests](#tests)
-- [Install](#install)
-
 # Causal Inference
 
 <p align="center">
@@ -27,6 +14,18 @@ A common frustration in the industry, especially when it comes to getting busine
 
 **What will happen if I halve the price of my product?**
 **Which clients will pay their debts only if I call them?**
+
+**Table of content**
+
+- [Data Source](#datasource)
+- [Screenshots](#screenshots)
+- [Notebooks](#notebooks)
+- [Data](#data)
+- [Scripts](#scripts)
+- [Integration](#integration)
+- [Tests](#tests)
+- [Install](#install)
+
 
 ## Data Source
 
