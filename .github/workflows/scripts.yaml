@@ -1,4 +1,4 @@
-name: scripts
+name: script
 on: [push]
 jobs:
   run:
