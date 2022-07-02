@@ -1,4 +1,4 @@
-name: model-trai
+name: scripts
 on: [push]
 jobs:
   run:
