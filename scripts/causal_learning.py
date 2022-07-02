@@ -81,7 +81,7 @@ class CausalLearning():
         """
         viz = plot_structure(
             sm,
-            graph_attributes={"scale": "0.8", "size": 1},
+            graph_attributes={"scale": "0.8", "size": 2},
             all_node_attributes=NODE_STYLE.WEAK,
             all_edge_attributes=EDGE_STYLE.WEAK,)
         
@@ -96,6 +96,19 @@ class CausalLearning():
         
         logging.info("successfully calculated jaccard index")
         return float(intersection) / union
+    
+    def check_edges(self,sm_lis):
+        """
+        A function that return edges, to know the consistent edges
+        """
+        i = 1
+
+        for s in sm_lis:
+            blanket = s.get_markov_blanket('diagnosis')
+            print(i)
+            print(blanket.edges)
+            i = i+1
+        logging.info("successfully returned number of edges for sm!")
 
     def var_parents(self):
         """
