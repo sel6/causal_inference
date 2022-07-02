@@ -7,6 +7,7 @@ import logging
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
+from pandas import DataFrame
 
 #for drawing causal graph
 from causalnex.structure.notears import from_pandas
@@ -23,9 +24,9 @@ class CausalLearning():
     
     
     def labeler(self, df, col):
-    """
-    A function that change categorical to numerical
-    """
+        """
+        A function that change categorical to numerical
+        """
         le = LabelEncoder()
         df[col] = le.fit_transform(df[col])
         logging.info("successfully labeled")
@@ -33,9 +34,9 @@ class CausalLearning():
         return(df)
     
     def splitter(self, df, rand=20, test=.2, split='t'):
-    """
-    A function to split the dataset to test and holdout set
-    """
+        """
+        A function to split the dataset to test and holdout set
+        """
         train_df, valid_df = train_test_split(df, random_state=rand, test_size=test)
         if(split=='t'):
             logging.info("sucessfully returned trained dataset")
@@ -49,9 +50,9 @@ class CausalLearning():
             logging.info("wrong data slice")
             
     def scaler(self, df):
-    """
-    A function that scale a dataset
-    """
+        """
+        A function that scale a dataset
+        """
         scaler = MinMaxScaler()
         # transform data
         scaled = scaler.fit_transform(df)
@@ -60,24 +61,24 @@ class CausalLearning():
         logging.info("scaled dataset successfully")
         return (scaled)
     
-    def rename_col(self, sc):
-    """
-    A function that rename scaled columns
-    to their original name
-    """
+    def rename_col(self, sc, df2):
+        """
+        A function that rename scaled columns
+        to their original name
+        """
         df = DataFrame(sc)
         dic={}
         for i in range(len(df.columns.to_list())):
-            dic[i]=data.columns.to_list()[i]
+            dic[i]=df2.columns.to_list()[i]
         df.rename(columns = dic, inplace=True)
         
         logging.info("successfully renamed columns back to original name!")
         return df
     
-    def causal_graph(self, df):
-    """
-    A function to draw causal graph
-    """
+    def causal_graph(self, df, sm):
+        """
+        A function to draw causal graph
+        """
         viz = plot_structure(
             sm,
             graph_attributes={"scale": "0.8", "size": 1},
@@ -88,8 +89,8 @@ class CausalLearning():
         return(Image(viz.draw(format='png')))
 
     def jaccard_set(self, list1, list2):
-    """Define Jaccard Similarity function for two sets
-    """
+        """Define Jaccard Similarity function for two sets
+        """
         intersection = len(list(set(list1).intersection(list2)))
         union = (len(list1) + len(list2)) - intersection
         
@@ -97,9 +98,9 @@ class CausalLearning():
         return float(intersection) / union
 
     def var_parents(self):
-    """
-    A function to return the lists directly pointing at the target
-    """
+        """
+        A function to return the lists directly pointing at the target
+        """
         selected = set()
         for item in blanket.edges:
             for val in item:
@@ -111,10 +112,10 @@ class CausalLearning():
         return(selected)
     
     def descreter(self, df, feat):
-    """
-    A function that changes df to discrete to be accecpted
-    by Bayseian network
-    """
+        """
+        A function that changes df to discrete to be accecpted
+        by Bayseian network
+        """
         from causalnex.discretiser.discretiser_strategy import (
             DecisionTreeSupervisedDiscretiserMethod,
         )
@@ -136,9 +137,9 @@ class CausalLearning():
         return(desc_df)
     
     def bayseian(self, df, bn):
-    """
-    A function to create Bayesian Network
-    """
+        """
+        A function to create Bayesian Network
+        """
     
         bn = bn.fit_node_states(df)
         bn = bn.fit_cpds(
@@ -151,9 +152,9 @@ class CausalLearning():
         return df
 
     def view_predictions(self, bn, holdout):
-    """
-    A function to help viewing how the outcomes look like manually
-    """
+        """
+        A function to help viewing how the outcomes look like manually
+        """
         predictions = bn.predict(holdout, "diagnosis");
         pred=pd.DataFrame()
         pred['predictions']=[i for i in predictions['diagnosis_prediction']]
