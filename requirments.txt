@@ -1,0 +1,7 @@
+setuptools
+matplotlib
+causalnex
+Ipython
+sklearn
+numpy
+pandas
