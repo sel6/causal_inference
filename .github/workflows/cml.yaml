@@ -13,6 +13,5 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install -r requirments.txt
-          cat metrics.txt >> report.md
           cml publish ../data/heatmap.png --md >> report.md
           cml send-comment report.md
