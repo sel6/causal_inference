@@ -23,10 +23,9 @@ https://github.com/sel6/causal_inference/blob/main/images/causal_inference.png
 # Screenshots
 
 screenshots directory has the image files for:
-
-     * MLflow setup
-     * DVC setup
-     * CML report
+* MLflow setup
+* DVC setup
+* CML Report
 
 # Notebooks
 
