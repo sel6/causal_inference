@@ -7,7 +7,9 @@
 - [Notebooks](#notebooks)
 - [Data](#data)
 - [Scripts](#scripts)
-- [Test](#tests)
+- [Integration](#integration)
+- [Tests](#tests)
+- [Install](#install)
 
 # Causal Inference
 
@@ -50,9 +52,9 @@ screenshots directory has the image files for:
 
 > It contains python scripts for EDA and causal learning.
 
-## sql_integrate.py and schema.sql
+## Integration
 
-> contains code to integerate SQL.
+> sql_integrate.py and schema.sql contains code to integerate SQL.
 
 ## Tests
 
