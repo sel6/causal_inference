@@ -1,5 +1,5 @@
 
-name: model-trai
+name: cml
 on: [push]
 jobs:
   run:
