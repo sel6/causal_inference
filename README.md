@@ -27,7 +27,7 @@ A common frustration in the industry, especially when it comes to getting busine
 
 ## Source
 
-> The data used for this project can be found in kaggle or in UCI Machine Learning Repository.
+> The data used for this project can be found in https://www.kaggle.com/uciml/breast-cancer-wisconsin-data.
 
 ## Screenshots
 
